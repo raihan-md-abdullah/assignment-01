@@ -1,0 +1,45 @@
+/* Header Section */
+header{
+  background-image: url(Images/Hero-bg.png);
+}
+
+/*nav bar*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo{
+  font-size: 35px;
+  font-weight: bolder;
+  margin-left: 20px;
+  
+}
+.g{
+  color: lightskyblue;
+}
+
+
+/*btn*/
+.btn{
+  padding: 15px;
+  background-color: #1597FC;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: red;
+  color: white;
+}
+
+.style{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 200px;
+}
+
