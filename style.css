@@ -42,3 +42,20 @@ nav{
   margin-top: 50px;
   padding-bottom: 200px;
 }
+
+/* Action Section*/
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 30px;
+}
+.act{
+  padding-right: 120px;
+}
+.img{
+  border-radius: 50px;
+}
+.sub-title{
+  color: #7C7C7C;
+}
