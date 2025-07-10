@@ -43,6 +43,14 @@ nav{
   padding-bottom: 200px;
 }
 
+/*Main Section*/
+
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
 /* Action Section*/
 .action{
   display: flex;
@@ -58,4 +66,36 @@ nav{
 }
 .sub-title{
   color: #7C7C7C;
+}
+
+
+/*Productive User Section*/
+.pro{
+  background-color: #ECE7F9;
+  border-radius: 20px;
+padding: 30px;
+  text-align: center;
+}
+.pro h1{
+  margin-bottom: 0px;
+}
+.marg{
+
+}
+.product{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.size{
+  font-size: 50px;
+  margin-bottom: 0;
+  font-weight: 900;
+  color: #2A61FA;
+}
+.less-gap{
+  margin-bottom: 0px;
+}
+.small{
+  margin: 0;
 }
