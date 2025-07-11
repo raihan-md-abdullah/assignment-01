@@ -241,6 +241,11 @@ li a:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 0;
   padding: 20px;
+}
+.style-fdb{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0;
 }
