@@ -1,3 +1,6 @@
+body{
+  background-color: #f5f8ff;
+}
 /* Header Section */
 header{
   background-image: url(Images/Hero-bg.png);
@@ -71,16 +74,13 @@ nav{
 
 /*Productive User Section*/
 .pro{
-  background-color: #ECE7F9;
+  background-color: #DCDEFC;
   border-radius: 20px;
 padding: 30px;
   text-align: center;
 }
 .pro h1{
   margin-bottom: 0px;
-}
-.marg{
-
 }
 .product{
   display: flex;
@@ -98,4 +98,74 @@ padding: 30px;
 }
 .small{
   margin: 0;
+}
+
+/* Landing Launchpad Start* */
+.sct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #DCDEFC;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.txt{
+  padding: 50px;
+  font-size: 30px;
+  color: #292929;
+}
+.extra-style{
+ font-size: 16px;
+ font-weight: 600;
+margin-bottom: ;
+}
+
+input[type="email"] {
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  margin-top: 5px;
+}
+input[type="text"] {
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: none;
+  margin-top: 5px;
+}
+textarea{
+  border-radius: 5px;
+height: 60px;
+width: 100%;
+background-color: white;
+padding: 5px;
+margin-bottom: 5px;
+border: none;
+margin-top: 5px;
+}
+.button{
+  border-radius: 5px;
+height: 35px;
+width: 100%;
+background-color: white;
+padding: 5px;
+border: none;
+font-weight: 800;
+cursor: pointer;
+font-size: 16px;
+background-color: #1676F7;
+color: white;
+}
+button:hover{
+  background-color: orangered;
+  color: white;
 }
