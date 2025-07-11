@@ -122,7 +122,6 @@ padding: 30px;
 .extra-style{
  font-size: 16px;
  font-weight: 600;
-margin-bottom: ;
 }
 
 input[type="email"] {
@@ -205,9 +204,43 @@ li a:hover{
 }
 .foot-text{
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px;
   margin-top: 0px;
   font-size: 12px;
   color: #87878B;
+}
+
+/* Feedback and challenge Section*/
+.testimonial-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.stars i {
+  margin-right: 4px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.star-style{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  padding: 20px;
 }
