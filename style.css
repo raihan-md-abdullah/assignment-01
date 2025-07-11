@@ -173,7 +173,6 @@ button:hover{
 
 /*Footer Section Start*/
 .ttl{
-  color: #2C4FFF;
   text-align: center;
   font-size: 60px;
   font-weight: 800;
@@ -206,4 +205,6 @@ li a:hover{
   padding-left: 200px;
   padding-right: 200px;
   margin-top: 0px;
+  font-size: 15px;
+  color: #87878B;
 }
