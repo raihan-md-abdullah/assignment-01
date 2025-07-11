@@ -169,3 +169,29 @@ button:hover{
   background-color: orangered;
   color: white;
 }
+
+
+/*Footer Section Start*/
+.ttl{
+  color: #2C4FFF;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+a{
+  text-decoration: none;
+  color: #292929;
+}
+li a {
+  background-color: transparent;
+}
